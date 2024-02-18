@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us page</title>
+	 <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  	
+</head>
+<body>
+	<h2>Contact us page</h2>
+	 <form>
+		<b>
+		<label for="Name"> Name</label><br>
+	   	<input type="text" name="name" id="name" autofocus="autofocus" required><br>
+	   	<label for="Mobile number" >Mobile number</label><br>
+	   	<input type="tel" name="num" id="num" placeholder="1234-56-789"minlength="10" maxlength="10" pattern="[0-9]{10}"><br>
+	   	<label for="Type of communication">Type of communication</label><br>
+	   	<select>
+	   		<option value="sales">sales</option>
+	   		<option value="service">service</option>
+	   		<option value="enquiry" selected="enquiry">enquiry</option>
+	   		<option value="complaint">complaint</option>
+	   	</select>
+	   	<br>
+	   	<label for="Description">Description</label><br>
+	   	<textarea name="Description" id="Description"  cols="20" rows="14"></textarea><br>
+	    <input type="submit" name="submit" value="Submit">
+	   </b>
+	   </form>
+
+</body>
+</html>
